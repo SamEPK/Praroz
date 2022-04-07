@@ -5,18 +5,18 @@ document.addEventListener("DOMContentLoaded", () => {
   let exprmdp ="sam";
 
  warning = document.querySelector(".warning");
- let email = document.getElementsByTagName("input")[1].value;
- let password = document.getElementsByTagName("input")[2].value;
- let btn = document.getElementsByTagName("input")[3];
+ let email = document.getElementsByTagName("input")[2].value;
+ let password = document.getElementsByTagName("input")[3].value;
+ let btn = document.getElementsByTagName("input")[4];
   btn.addEventListener("click", e => {
       e.preventDefault();
       send();
   });
 
          let send = () => {
-      email = document.getElementsByTagName("input")[1].value;
-      password = document.getElementsByTagName("input")[2].value;
-      btn = document.getElementsByTagName("input")[3];
+      email = document.getElementsByTagName("input")[2].value;
+      password = document.getElementsByTagName("input")[3].value;
+      btn = document.getElementsByTagName("input")[4];
 
       if (email.match(exprmail) && password.match(exprmdp)) {
           warning.classList.add("success");
