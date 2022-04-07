@@ -1,13 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("chargé");
-
-  let exprmail =  /^[a-zA-Z0-9.-]+@[a-z0-9.-]{2,}.[a-z]{2,4}$/;
-  let exprmdp ="sam";
-
- warning = document.querySelector(".warning");
- let email = document.getElementsByTagName("input")[2].value;
- let password = document.getElementsByTagName("input")[3].value;
- let btn = document.getElementsByTagName("input")[4];
+warning = document.querySelector(".warning");
+    let exprmail =  /^[a-zA-Z0-9.-]+@[a-z0-9.-]{2,}.[a-z]{2,4}$/;
+    let exprmdp ="sam";
+    let email = document.getElementsByTagName("input")[2].value;
+    let password = document.getElementsByTagName("input")[3].value;
+    let btn = document.getElementsByTagName("input")[4];
   btn.addEventListener("click", e => {
       e.preventDefault();
       send();
