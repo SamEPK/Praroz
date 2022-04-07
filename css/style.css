@@ -313,8 +313,7 @@ footer{
     .content .cn{
         display: block;
         margin:  auto ;
-        background: none;
-
+        margin-bottom: 5rem;
     }
     .srch{
         width: 15rem;
@@ -322,6 +321,7 @@ footer{
     form.menu{
         position:initial;
         max-width: 28rem;
+        
     }
     .logo{
         padding-left: 0rem;
